@@ -11,6 +11,8 @@ def widgets():
     lbl_start.config(font=("esthetique", 22, "bold"), bg="blue", width=24)
     lbl_start.grid(row=0)
 
+btn_start = Button(main, text="start")
+
 widgets()
 
 main.mainloop()
